@@ -43,7 +43,7 @@ public class GuenthersMarket {
 		maxPrice(orderPrices);
 		minPrice(orderPrices);
 		scan.close();
-		
+		System.out.println("Hiii!!");
 	} catch (NullPointerException e) {
 		System.out.println("We didn't have one or more of the item's you asked for.");
 	}
